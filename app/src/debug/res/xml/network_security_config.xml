@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug builds only: the platform allows cleartext, but the app still refuses
+     http:// URLs unless "Allow HTTP (local development)" is switched on. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
